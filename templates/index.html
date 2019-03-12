@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello</title>
+</head>
+<body>
+	<h1>Landmarks</h1>
+	<form action="{{ url_for('save_landmark') }}" method="post">
+		<p><input name="landmark" placeholder="landmark"></p>
+		<p><input name="description" placeholder="description"></p>
+		<p><input type="submit" value="Submit"></p>
+	</form>
+</body>
+</html>
